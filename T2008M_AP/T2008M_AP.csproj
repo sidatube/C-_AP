@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{02C8CAC2-E311-483D-A7AF-C9B4E30108E5}</ProjectGuid>
+        <OutputType>Exe</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>T2008M_AP</RootNamespace>
+        <AssemblyName>T2008M_AP</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="As\Clothes\Climte.cs" />
+        <Compile Include="As\Clothes\Clothers.cs" />
+        <Compile Include="As\Clothes\Program.cs" />
+        <Compile Include="As\Clothes\Sports.cs" />
+        <Compile Include="As\Clothes\Trend.cs" />
+        <Compile Include="As\Zoo\Body.cs" />
+        <Compile Include="As\Zoo\Diet.cs" />
+        <Compile Include="As\Zoo\Domestication.cs" />
+        <Compile Include="As\Zoo\Elaphant.cs" />
+        <None Include="As\Zoo\Product.cs" />
+        <Compile Include="As\Zoo\Reproduction.cs" />
+        <Compile Include="As\Zoo\Species.cs" />
+        <Compile Include="Lap\Lap1\Product.cs" />
+        <None Include="Lap\Lap1\Program.cs" />
+        <Compile Include="Lap\Lap2\Diamon.cs" />
+        <Compile Include="Lap\Lap2\Fashion.cs" />
+        <Compile Include="Lap\Lap3\Cart.cs" />
+        <None Include="Lap\Lap3\Program.cs" />
+        <Compile Include="Lap\Lap4\Hoadondien.cs" />
+        <Compile Include="Lap\Lap4\Khachang.cs" />
+        <Compile Include="Lap\Lap4\Ngoaiquoc.cs" />
+        <Compile Include="Lap\Lap4\NguoiVN.cs" />
+        <None Include="Lap\Lap4\Program.cs" />
+        <Compile Include="Lap\Lap5(ss4)\HamDelegate.cs" />
+        <None Include="Lap\Lap5(ss4)\Program.cs" />
+        <None Include="Lap\Lap6\Program.cs" />
+        <None Include="Program.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <None Include="Session1\Program.cs" />
+        <Compile Include="Session1\Student.cs" />
+        <Compile Include="Session2\Animal.cs" />
+        <Compile Include="Session2\Cat.cs" />
+        <Compile Include="Session2\Ianimal.cs" />
+        <Compile Include="Session2\Icat.cs" />
+        <Compile Include="Session3\product.cs" />
+        <None Include="Session3\program.cs" />
+        <None Include="Session4\DemoDelegate.cs" />
+        <Compile Include="Session4\DemoDelegate2.cs" />
+        <None Include="Session4\Program.cs" />
+        <Compile Include="Session5\Product.cs" />
+        <None Include="Session5\Program.cs" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>
