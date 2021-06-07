@@ -77,7 +77,7 @@ namespace T2008M_AP.Pratical.GeometryExample
 
         public void result()
         {
-           
+            Console.WriteLine("Cylinder Characteristics");
             Console.WriteLine("Base: "+BaseArea+"| Lateral: "+LateralArea+"| Total: "+TotalArea+"| Volume: "+Volume);
         }
     }
