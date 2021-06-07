@@ -40,7 +40,7 @@
     <ItemGroup>
         <Compile Include="As\Clothes\Climte.cs" />
         <Compile Include="As\Clothes\Clothers.cs" />
-        <Compile Include="As\Clothes\Program.cs" />
+        <None Include="As\Clothes\Program.cs" />
         <Compile Include="As\Clothes\Sports.cs" />
         <Compile Include="As\Clothes\Trend.cs" />
         <Compile Include="As\Zoo\Body.cs" />
@@ -65,6 +65,12 @@
         <None Include="Lap\Lap5(ss4)\Program.cs" />
         <None Include="Lap\Lap6\Program.cs" />
         <None Include="Program.cs" />
+        <Compile Include="Pratical\ex2\Base.cs" />
+        <Compile Include="Pratical\ex2\Lion.cs" />
+        <Compile Include="Pratical\ex2\Program.cs" />
+        <Compile Include="Pratical\ex2\Tiger.cs" />
+        <Compile Include="Pratical\GeometryExample\GeometryExample.cs" />
+        <None Include="Pratical\GeometryExample\Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <None Include="Session1\Program.cs" />
         <Compile Include="Session1\Student.cs" />
