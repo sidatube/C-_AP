@@ -4,8 +4,8 @@ namespace T2008M_AP.Pratical.GeometryExample
     {
         public static void Main(string[] args)
         {
-            GeometryExample ex = new GeometryExample(38.64, 22.48);
-            ex.showinput();
+            GeometryExample ex = new GeometryExample();
+           
             ex.process();
             ex.result();
         }

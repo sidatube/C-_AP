@@ -57,13 +57,18 @@ namespace T2008M_AP.Pratical.GeometryExample
             this.height = height;
         }
 
-        public void showinput()
-        {
-            Console.WriteLine("Radius: "+Radius);
-            Console.WriteLine("Height: "+Height);
-        }
+      
         public void process()
         {   
+            Console.WriteLine("Enter the dimensions of the cylinder");
+            Console.Write("Radius:");
+            string a = Console.ReadLine();
+            Radius = Convert.ToDouble(a);
+            
+            Console.Write("Height:");
+            a = Console.ReadLine();
+            Height = Convert.ToDouble(a);
+            
              BaseArea = Radius * Radius * Math.PI;
              LateralArea = 2 * Math.PI * Radius * Height;
              TotalArea =2 * Math.PI * Radius * (Height+Radius);

@@ -6,9 +6,7 @@ namespace T2008M_AP.Pratical.ex2
     {
         private double weight;
         private string name;
-
-     
-
+        
         public double Weight
         {
             get => weight;
@@ -26,10 +24,10 @@ namespace T2008M_AP.Pratical.ex2
             Console.WriteLine("Name: "+Name+", Weight: "+Weight);
         }
 
-        public virtual void Setme(double weight, string name)
+        public virtual void Setme(double iweight, string iname)
         {
-            Weight = weight;
-            Name = name;
+            Weight = iweight;
+            Name = iname;
         }
     }
 }
